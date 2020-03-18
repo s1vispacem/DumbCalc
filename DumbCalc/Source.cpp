@@ -2,6 +2,8 @@
 // fixed entering operands
 // fixed entering operations
 
+//test changes
+
 #include <iostream>
 #include <cmath>
 using  std::cin;			// забрати namespace std
@@ -16,7 +18,7 @@ bool operation_check(char operation[]) {
 
 	for (int i = 0; i < b8; i++) {			//при вводі значень в чар, після останнього символу ставится 0 => перевіряємо чи оп[1]==0
 		if (operation[1] != 0) {
-			cout << "only one symbol, dummy\n";
+			cout << "only one symbol, dummy\n";	
 			return false;
 		}
 	}
